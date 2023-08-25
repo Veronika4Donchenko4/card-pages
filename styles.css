@@ -1,0 +1,89 @@
+ * {
+   padding: 0;
+   margin: 0;
+ }
+
+ :root {
+   --text-color: #FFF;
+   --element-color:  #BC1E4A;
+   --card-color:  #22262C;
+ }
+
+ 
+ html {
+    background-color: rgba(25, 27, 29, 1);
+    font-family: 'Crimson Text', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+   }
+
+ .top-text {
+   width: 26.125rem;
+   height: 6.75rem; 
+   margin-top: 0px;
+   left: 36.94rem;
+   right: 36.94rem;
+   border-radius: 0px 0px 10px 10px;
+   background: var(--element-color);
+   text-align: center;
+ }
+
+.top-text p, h1 {
+   color: var(--text-color);
+   font-family: Open Sans;
+   font-style: normal;
+}
+
+.top-text h1{
+   margin-bottom: 8.563rem;
+   margin-top: 0.625rem ;
+   font-weight: 700;
+   font-size: 1.25rem;
+}
+
+.top-text p {
+   /* margin-top: 1.563rem; */
+   padding-top: 1.563rem ;
+   font-weight: 400;
+   font-size: 1rem;
+}
+
+span{
+   color: var(--text-color);
+   text-align: center;
+   font-family: Open Sans;
+   font-size: 2.25rem;
+   font-style: normal;
+   font-weight: 700;
+   display: block;
+}
+
+.block-switch {
+   padding-top: 8.68rem;
+}
+
+
+#swith{
+   color: var(--text-color);
+   font-size: 1rem;
+   font-style: normal;
+   line-height: normal;
+   padding-top: 2.13rem;
+}
+
+.styled-svg{
+   width: auto
+}
+
+.cards {
+   margin-top: 2.5rem;
+   display: flex;
+   justify-content: center;
+   height: 38rem;
+   background: #22262C;
+}
+
+
